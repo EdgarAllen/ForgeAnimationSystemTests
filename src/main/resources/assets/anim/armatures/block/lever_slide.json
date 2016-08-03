@@ -1,0 +1,24 @@
+{
+    "joints": {
+        "slide": { "0": [ 1.0 ] }
+    },
+    "clips": {
+        "closed": {
+            "loop": false,
+            "joint_clips": { },
+            "events": {}
+        },
+        "open": {
+            "loop": true,
+            "joint_clips": {
+                "slide": [{
+                    "variable": "offset_x",
+                    "type": "uniform",
+                    "interpolation": "linear",
+                    "samples": [ 0.5 ]
+                }]
+            },
+            "events": {}
+        }
+    }
+}

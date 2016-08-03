@@ -1,0 +1,16 @@
+[
+{
+  "modid": "anim",
+  "name": "Anim",
+  "description": "Testing the Forge Animation System",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EdgarAllen"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

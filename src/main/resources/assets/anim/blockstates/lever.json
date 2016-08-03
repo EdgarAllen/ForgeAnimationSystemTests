@@ -1,0 +1,34 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "anim:lever"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{
+            "transform": { "rotation": { "x": 90  } },
+            "model": "anim:lever",
+            "submodel": {
+                "slide": {
+                    "model": "anim:lever_slide"
+                }
+            }
+        }],
+        "facing": {
+            "down":  { "transform": { "rotation": { "x": 90  } } },
+            "up":    { "transform": { "rotation": { "x": 270 } } },
+            "north": { "transform": { "rotation": { "y": 180 } } },
+            "south": { "transform": "identity"                   },
+            "west":  { "transform": { "rotation": { "y": 90  } } },
+            "east":  { "transform": { "rotation": { "y": 270 } } }
+        },
+        "static": {
+            "true": {
+                "model": "anim:lever"
+            },
+            "false": {
+                "model": "anim:lever_slide"
+            }
+        }
+    }
+}
